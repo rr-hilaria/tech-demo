@@ -1,7 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/java:17",
    "features": {
-     "ghcr.io/devcontainers/features/desktop-lite:1": {}
+     "ghcr.io/devcontainers/features/desktop-lite:1": {"postStartCommand": "DISPLAY=:1 xsetroot -solid black"}
    },
    "forwardPorts": [6080]
 }
